@@ -19,7 +19,7 @@ dp = Dispatcher(bot)
 current_shown_dates={}
 
 @dp.message_handler(commands=['calendar'])
-async def ho_help(message: types.Message):
+async def calendar_handler(message: types.Message):
     now = datetime.datetime.now()
     current_shown_dates[message.chat.id] = (now.year, now.month)
     markup = create_calendar(now.year,now.month)
