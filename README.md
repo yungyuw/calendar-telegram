@@ -10,4 +10,4 @@ Furthermore, the user can change the month displayed in the inline keyboard simp
 ## Usage
 put telegramcalendar.py with your source code or module dir.
 
-just take a look about the bot.py
+just take a look about the [bot.py](bot.py)
